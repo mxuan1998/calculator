@@ -39,7 +39,7 @@ operatorButtons.forEach(operator => {
             let displayOperator = document.getElementById("current").innerText;
             displayOperator += operator.id;
             ++operatorCount;
-            return displayOutput(disolayOperator);
+            return displayOutput(displayOperator);
         } else {
             return
         }
