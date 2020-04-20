@@ -29,7 +29,7 @@ numberButtons.forEach(number => {
         let displayNumber = document.getElementById("current").innerText;
         displayNumber += number.id;
         operatorCount = 0;
-        return displayOutput(displayOutput);
+        return displayOutput(displayNumber);
     })
 })
 
